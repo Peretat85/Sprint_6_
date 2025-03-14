@@ -30,8 +30,7 @@ class OrderPageLocators:
     DELIVERY_DATE_INPUT = (By.XPATH, "//input[@placeholder='* Когда привезти самокат']")
     RENTAL_PERIOD_DROPDOWN = (By.CLASS_NAME, "Dropdown-control")
     RENTAL_PERIOD_VALUE = (By.XPATH, "//div[contains(@class, 'Dropdown-menu')]//div[text()='{period}']")  # {period} заменить на значение
-   # COLOR_CHECKBOX = (By.XPATH, "//input[@type='checkbox' and @value='{color}']")  # {color} заменить на значение *необ парам
-    COMMENT_INPUT = (By.XPATH, "//input[@placeholder='Комментарий для курьера']") # необяз парам
+    COMMENT_INPUT = (By.XPATH, "//input[@placeholder='Комментарий для курьера']") #
     ORDER_BUTTON_FINAL = (By.XPATH, "//button[contains(@class, 'Button_Button__ra12g') and contains(@class, 'Button_Middle__1CSJM') and contains(text(), 'Заказать')]")
     CONFIRMATION_MODAL_BUTTON = (By.XPATH, "//button[text()='Да']")
     ORDER_SUCCESS_MODAL = (By.XPATH, "//div[contains(@class, 'Order_ModalHeader')]")

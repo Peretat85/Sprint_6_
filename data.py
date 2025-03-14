@@ -1,8 +1,8 @@
 import pendulum
 
 class TestData:
-    SCOOTER_URL = "https://qa-scooter.praktikum-services.ru/"
-    SCOOTER_URL_ORDER = "https://qa-scooter.praktikum-services.ru/order"
+    SCOOTER_URL = "https://qa-scooter.praktikum-services.ru/" # главная
+    SCOOTER_URL_ORDER = SCOOTER_URL + "order" # страница заказа
     DZEN_URL = "dzen.ru"
 
     tomorrow = pendulum.tomorrow('Europe/Moscow').format('DD.MM.YYYY') # завтра
